@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Education</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="icon" type="image-icon " sizes="96x96"  href="/images/resume_image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<style>
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4458dc;
+    padding: 15px 30px;
+    position: relative;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-family: "Oswald", serif;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #fff;
+    color: #4458dc;
+    border-radius: 5px;
+}
+   body{
+     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 50px auto;
+        }
+
+.education-section {
+    width: 650px;
+    flex: 1;
+    margin-top: 20px;
+    background: #f4f4f4;
+    border: 5px solid #4458dc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.achievements-section {
+    width: 650px;
+    flex: 1;
+    margin-top: 20px;
+    background: #f4f4f4;
+    border: 5px solid #10b981;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.education-tabs{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+.achievements-tabs {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 20px;
+
+    
+}
+
+.tab1 {
+    background: #fff;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    padding: 30px ;
+    margin-left: 10px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow:hidden;
+    
+}
+.tab {
+    background: #fff;
+    width: 100px;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    padding: 30px ;
+    margin-left: 10px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow:hidden;
+    
+}
+
+.tab:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.tab1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.tab-header h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #2563eb;
+}
+
+.tab-header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.tab-content {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s, height 0.3s;
+}
+
+.tab:hover .tab-content{
+    opacity: 1;
+    height: auto;
+}
+.tab1:hover .tab-content{
+    opacity: 1;
+    height: auto;
+}
+
+.achievements-tabs .tab {
+    border: 2px solid #10b981;
+}
+
+.achievements-tabs .tab-header h2 {
+    color: #10b981;
+}
+
+</style>
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <div class="logo">Portfolio Website</div>
+            <ul class="nav-links">
+                <li><a href="index.html">PROFILE</a></li>
+                <li><a href="internships.html">INTERNSHIPS</a></li>
+                <li><a href="education.html">EDUCATION/ACHIEVEMENTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div>
+            <div class="container">
+    <section class="education-section">
+        <h1 class="section-title" style="color: #2563eb;">My Education</h1>
+        <div class="education-tabs">
+      
+            <div class="tab1">
+                <div class="tab-header">
+                    <h2>JSPM's Rajarshi Shahu College of Engineering,Pune</h2>
+                   <i> <p>Bachelor of Technology (Computer Engineering)</p>
+                </div>
+                <div class="tab-content">
+                    <p>Duration: 2022 - Present</p>
+                    <p><i>GPA: 9.52/10</i></p>
+                    </i>
+                </div>
+            </div>
+
+            <div class="tab1">
+                <div class="tab-header">
+                    <h2>Shri.Mhalsakant Vidyalaya,Pune</h2>
+                    <p>Higher Secondary (12th)</p>
+                </div>
+                <div class="tab-content">
+                    <p>Duration: 2020 - 2022</p>
+                    <p>Percentage:72.83</p>
+                </div>
+            </div>
+            
+            <div class="tab1">
+                <div class="tab-header">
+                    <h2>C.M.S Higher Secondary School,Pune</h2>
+                    <p>Secondary (10th)</p>
+ 
+                <div class="tab-content">
+                    <p>Percentage:94%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+      <section class="achievements-section">
+        <h1 class="section-title" style="color: #10b981;">Achievements/Certifications</h1>
+        <div class="achievements-tabs">
+            <div class="tab">
+                <div class="tab-header">
+                    <h2>NPTEL</h2>
+                    <p>Programming in Java</p>
+                </div>
+                <div class="tab-content">
+                    <p>Silver Medalist-79%</p>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="tab-header">
+                    <h2>NPTEL</h2>
+                    <p>Data Structures and Algorithms in Java</p>
+                </div>
+                <div class="tab-content">
+                    <p>Sep-Oct 2024 <br> Certification-69%</p>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="tab-header">
+                    <h2>Zscalar </h2>
+                    <p>Zscalar Zero trust Cloud Security</p>
+                </div>
+                <div class="tab-content">
+                    <p>TechCamp on Cloud and Cybersecurity</p>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="tab-header">
+                    <h2>Innovision Hackathon </h2>
+                    <p>Finalist 2024</p>
+                </div>
+                <div class="tab-content">
+                    <p>Participated in national level Hackathon organised by JSPM's RSCOE</p>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="tab-header">
+                    <h2>JAVA Training </h2>
+                    <p>IIT Bombay and Spoken Tutorial</p>
+                </div>
+                <div class="tab-content">
+                    <p>Score: 62.50%</p>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="tab-header">
+                    <h2>Python Training </h2>
+                    <p>IIT Bombay and Spoken Tutorial</p>
+                </div>
+                <div class="tab-content">
+                    <p>Score: 75.00%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
